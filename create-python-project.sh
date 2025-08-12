@@ -23,7 +23,7 @@ uv venv
 echo "Virtual environment criado em .venv/"
 
 # Cria main.py
-echo -e 'def main():\n    print("Olá do projeto '$PROJECT_NAME'!")\n\nif __name__ == "__main__":\n    main()\n' > main.py
+echo -e 'def main():\n    print("Olá João, '$PROJECT_NAME'!")\n\nif __name__ == "__main__":\n    main()\n' > main.py
 
 # Opcionalmente cria README e .gitignore
 echo "# $PROJECT_NAME" > README.md
